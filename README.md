@@ -1,5 +1,7 @@
 # perception-neuron-ros
-This repository contains two ROS Modules: 
+*Note*: The repository is based on the original code of Simon Haller and Alexander Rietzler, that you can find [here](https://github.com/smhaller/perception-neuron-ros).
+
+This repository contains three ROS Modules: 
 - a Windows ROS Serial Module, which sends the Perception Neuron BVH Data to a ROS Serial Server
 - a ROS BVH tf broadcaster package
 - (**new**) a native macOS ROS node that implements the same functionality as Windows ROS Serial Module. The node uses `NeuronDataReader b17` version.
